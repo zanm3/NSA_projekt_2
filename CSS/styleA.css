@@ -3,8 +3,8 @@
     padding: 0;
 }
 @font-face {
-    font-family: "Valentino";
-    src: url("../fonts/Didot\ Italic.otf");
+    font-family: "ValentinoT";
+    src: url("../fonts/Didot.otf");
 }
 html, body{
     height: 100%;
@@ -15,5 +15,27 @@ html, body{
     padding-top: 10px;
     border: none;
     border-bottom:1px solid gray;
-    height: 100px;
+    height: 70px;
+    background-color: wheat;
+}
+#para1{
+    position: absolute;
+    left: 20%;
+    top: 31%;
+    width: 300px;
+}
+.paraTitle{
+    font-family: ValentinoT;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+}
+.ParaText{
+    font-family: ValentinoT;
+    text-align: justify;
+}
+#paraImg{
+    width: fit-content;
+    position: absolute;
+    left: 60%;
+    top: 50%;
 }

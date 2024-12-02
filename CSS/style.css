@@ -6,6 +6,10 @@
     font-family: "Valentino";
     src: url("../fonts/Didot\ Italic.otf");
 }
+@font-face {
+    font-family: "ValentinoT";
+    src: url("../fonts/Didot.otf");
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -16,11 +20,12 @@ html, body{
     border: none;
     border-bottom:1px solid gray;
     height: 100px;
+    background-color: wheat;
 }
 #menu{
     position: relative;
     left: 50%;
-    margin-left: -80.43px;
+    margin-left: -143.15px;
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -41,6 +46,13 @@ html, body{
     text-align: center;
     border: none;
 }
+#vbotique{
+    width: fit-content;
+    box-sizing: border-box;
+    margin-left: 65px;
+    text-align: center;
+    border: none;
+}
 a{
     text-decoration: none;
     color: black;
@@ -49,6 +61,9 @@ a{
     border-bottom: 3px solid black;
 }
 #history:hover{
+    border-bottom: 3px solid black;
+}
+#vbotique:hover{
     border-bottom: 3px solid black;
 }
 .menuTitle{
