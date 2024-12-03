@@ -20,7 +20,7 @@ html, body{
     border: none;
     border-bottom:1px solid gray;
     height: 100px;
-    background-color: wheat;
+    background-color: #F3E5AB;
 }
 #menu{
     position: relative;
