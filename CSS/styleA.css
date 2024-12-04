@@ -14,7 +14,6 @@
 html, body {
     height: 100%;
     width: 100%;
-    min-height: 100vh;
 }
 #head {
     text-align: center;
@@ -25,10 +24,8 @@ html, body {
     background-color: #F3E5AB;
     font-family: ValentinoT;
 }
-/* Body Layout */
-body {
-    display: flex;
-    flex-direction: column;
+body{
+    min-height: 100vh;
 }
 /* Main Section */
 #main {

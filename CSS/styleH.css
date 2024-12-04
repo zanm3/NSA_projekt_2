@@ -1,20 +1,129 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: "Valentino";
-    src: url("../fonts/Didot\ Italic.otf");
+    src: url("../fonts/Didot.otf");
 }
-html, body{
+
+@font-face {
+    font-family: "ValentinoT";
+    src: url("../fonts/Didot.otf");
+}
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#head{
+
+#head {
     text-align: center;
     padding-top: 10px;
     border: none;
-    border-bottom:1px solid gray;
+    border-bottom: 1px solid gray;
     height: 70px;
     background-color: #F3E5AB;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(11, auto);
+    padding: 50px;
+    background-color: whitesmoke;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+#para {
+    grid-column: 1 / 2;
+    text-align: justify;
+    grid-row: 2;
+    font-family: Valentino;
+}
+
+#paraTitle1 {
+    font-family: ValentinoT;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 2;
+}
+
+#para2 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    font-family: Valentino;
+    text-align: justify;
+}
+
+#paraTitle2 {
+    font-family: ValentinoT;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 2 / 3;
+}
+
+#paraImg1{
+    grid-row: 5;
+    grid-column: 1 / 2 ;
+    text-align: center;
+    padding: 20px;
+}
+
+#paraTitle3{
+    font-family: ValentinoT;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-row: 6;
+    grid-column: 2 / 3;
+}
+
+#para3{
+    grid-column: 2 / 3;
+    grid-row: 7;
+    font-family: Valentino;
+    text-align: justify;
+}
+
+#paraImg3{
+    grid-column: 1 / 2;
+    grid-row: 8;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#para4{
+    grid-column: 2 / 3;
+    grid-row: 8;
+    font-family: Valentino;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#paraTitle5{
+    font-family: ValentinoT;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-row: 10;
+    grid-column: 1 / 2 span;
+}
+
+#para5{
+    grid-column: 1 / 2 span;
+    grid-row: 11;
+    font-family: Valentino;
+    width: 100%;
+    text-align: center;
+
 }
