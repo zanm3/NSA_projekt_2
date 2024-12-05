@@ -13,6 +13,11 @@
     src: url("../fonts/Didot.otf");
 }
 
+@font-face {
+    font-family: "ValentinoLink";
+    src: url("../fonts/Didot\ Italic.otf");
+}
+
 html,
 body {
     height: 100%;
@@ -35,7 +40,7 @@ body {
     padding: 50px;
     background-color: whitesmoke;
     column-gap: 30px;
-    row-gap: 20px;
+    row-gap: 30px;
 }
 
 #para {
@@ -104,9 +109,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 8;
     font-family: Valentino;
-    text-align: center;
     display: flex;
     align-items: center;
+    text-align: justify;
+    width: auto;
 }
 
 #paraTitle5{
@@ -126,4 +132,22 @@ body {
     width: 100%;
     text-align: center;
 
+}
+#tail{
+    border: none;
+    border-top: 1px solid gray;
+    padding: 30px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+#footerLink{
+    text-decoration: none;
+    color: black;
+    font-family: ValentinoLink;
+    border: none;
+}
+#footerLink:hover{
+    border-bottom: 3px solid black;
 }
