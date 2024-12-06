@@ -69,3 +69,95 @@ a{
 .menuTitle{
     font-family: Valentino;
 }
+#main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(15, auto);
+    background-color: whitesmoke;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+#BodyLogo{
+    width: auto;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+#bodytitle{
+    grid-column: 1 / 2;
+    grid-row: 3;
+    display: flex;
+    justify-content: center
+}
+#bodytitle h1{
+    font-family: Valentino;
+    font-weight: normal;
+}
+#gold{
+    grid-column: 1 / 2;
+    grid-row: 4;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+#gold img{
+    width: 280px;
+    height: 360px;
+    border: 1px solid lightgray;
+}
+#green{
+    grid-column: 2 / 3;
+    grid-row: 4;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#green img{
+    width: 280px;
+    height: 360px;
+    border: 1px solid lightgray;
+}
+#intense{
+    grid-column: 3 / 4;
+    grid-row: 4;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+#intense img{
+    width: 280px;
+    height: 360px;
+    border: 1px solid lightgray;
+}
+#intense2{
+    grid-column: 1 / span 3 ;
+    grid-row: 5;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 25%;
+}
+#intense2 img{
+    width: 280px;
+    height: 360px;
+    border: 1px solid lightgray;
+}
+#green2{
+    grid-column: 1 / span 3;
+    grid-row: 5;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 25%;
+}
+#green2 img{
+    width: 280px;
+    height: 360px;
+    border: 1px solid lightgray;
+}
